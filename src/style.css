@@ -1,13 +1,21 @@
+body{
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --img-radius: 10px;
+  --font1: 'Fira Sans Condensed', sans-serif;
+  --font2: 'Lobster Two', cursive;
+  --border-radius: 10px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
 }
 
@@ -19,17 +27,39 @@ h3 {
 }
 
 .body h1 {
-  font-size: 96px;
+  font-size: 56px;
 }
+
 .body h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 30px;
+  font-weight: 550;
+  font-family: var(--font1);
+  font-family: var(--font2);
+  margin-bottom: 50px;
 }
+
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
 }
+.col-6{
+  text-align: center;
+}
+
+.selfImage img{
+  width: 350px;
+  margin: 0 auto;
+  justify-content: flex-end;
+}
+.about-paragraphs p{
+  margin-top: 50px;
+  font-family: var(--font1);
+  line-height: 1.5em;
+  font-size: large;
+
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -38,19 +68,23 @@ h2 {
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  border-radius: var(--border-radius);
 }
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: var(--font1);
+  margin: 500px;
 }
+
 .about-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 3px solid var(--primary-color);
+  font-family: var(--font1);
 }
 .email-link {
   display: flex;
@@ -105,9 +139,7 @@ img {
   }
   .col-sm-6 img{
     width: 0px;
-  }
-
-  
+  }  
 
   .body h3 {
     font-size: 16px;
