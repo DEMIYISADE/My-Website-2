@@ -15,7 +15,8 @@ body{
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   text-align: center;
 }
 
@@ -53,6 +54,11 @@ h2 {
   font-size: 50px;
   font-family: var(--font1);
   font-weight: bold;
+}
+
+.mediaContact{
+  margin-bottom: 15px;
+  margin-top: 50px;
 }
 .col-md-6{
   text-align: center;
