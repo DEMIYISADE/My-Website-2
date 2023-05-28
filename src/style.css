@@ -22,8 +22,8 @@ h4 {
 .body {
   margin-top: 100px;
   margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .body h1 {
@@ -119,8 +119,11 @@ img {
 
 .col-sm-6 h1 {
   text-align: start;
-  font-size: 50px;
-  margin-top: 15px;
+  font-size: 35px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .col-sm-6 p {
@@ -128,20 +131,24 @@ img {
   text-align: center;
   border-radius: var(--img-radius);
   background-color: rgb(247, 241, 231);
-  font-size: 1.5rem;
-  margin-top: 40px;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .col-sm-6 button {
   max-width: 100%;
   text-align: center;
   display: block;
-  margin: 60px auto;
+  margin: 40px auto;
   padding: 20px 15px;
   border-radius: var(--img-radius);
   background-color: blue;
   color: white;
   text-decoration: none;
+}
+.col-sm-6 img {
+  margin-top: 20px;
 }
 
 .imageDescription{
@@ -169,6 +176,10 @@ img {
 
   .body h3 {
     font-size: 16px;
+  }
+
+  .body3 h1{
+    font-size: 40px;
   }
 
   .navigation-links a {
@@ -206,4 +217,5 @@ img {
   margin: 0 auto;
   justify-content: center;
 }
+
 }
