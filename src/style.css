@@ -172,6 +172,16 @@ img {
   text-align: center;
 }
 
+.body3 .flexCreation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.body3 .flexCreation img{
+  width: 450px;
+  margin-top: 100px;
+}
+
 footer .footerCaptionBox{
   display: flex;
   justify-content: space-between;
@@ -270,7 +280,7 @@ footer .fa-linkedin:hover{
 }
 
 
-@media(max-width:500px) {
+@media(max-width:600px) {
   .body h1{
     font-size: 50px;
   }
@@ -282,9 +292,7 @@ footer .fa-linkedin:hover{
     font-size: 16px;
   }
 
-  .body3 h1{
-    font-size: 40px;
-  }
+  
 
   .navigation-links a {
     margin: 15px;
@@ -320,6 +328,19 @@ footer .fa-linkedin:hover{
   width: 300px;
   margin: 0 auto;
   justify-content: center;
+}
+
+.body3 .flexCreation img{
+  width: 0px;
+}
+.body3 .flexCreation{
+  display: flex;
+  justify-content: center;
+}
+
+.body3 .flexCreation h1{
+  font-size: 40px;
+  text-align: center;
 }
 
 }
