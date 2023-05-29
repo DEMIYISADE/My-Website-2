@@ -85,7 +85,7 @@ h2 {
 
 .navigation-links a {
   margin: 20px;
-  padding: 20px 15px;
+  padding: 25px 45px;
   text-decoration: none;
   text-transform: capitalize;
   border-radius: var(--border-radius);
@@ -95,7 +95,7 @@ h2 {
   box-shadow: var(--box-shadow);
   color: white;
   font-family: var(--font1);
-  margin: 500px;
+
 }
 
 .about-link {
@@ -171,6 +171,104 @@ img {
   font-weight: bold;
   text-align: center;
 }
+
+footer .footerCaptionBox{
+  display: flex;
+  justify-content: space-between;
+  border: #f5f2fe;
+  background-color: #f5f2fe;
+  margin: 20px 250px;
+  padding: 20px 20px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+footer .footerCaptionBox h3{
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+footer .footerCaptionBox button{
+  padding: 10px 20px;
+  margin-top: 15px;
+  color: white;
+  background-color: blue;
+  font-family: var(--font1);
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.footerEmail{
+  text-align: center;
+  font-size: 24px;
+  font-family: var(--font2);
+  margin-top: 50px;
+}
+
+.emailFooter{
+  text-decoration: none;
+  color: black;
+}
+
+.emailFooter:hover{
+  cursor: pointer;
+  color: blue
+}
+
+.footerIcons{
+  text-align: center;
+  color: blue;
+  font-size: 24px;
+}
+
+.footerIcons a{
+  text-decoration: none;
+  color: blue;
+  border-radius: 50%;
+}
+
+.fa-instagram,
+.fa-github,
+.fa-facebook,
+.fa-linkedin{
+  padding: 5px;
+  margin: 10px;
+}
+
+footer .fa-instagram:hover{
+  background: blue;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
+
+footer .fa-github:hover{
+  background: blue;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
+
+footer .fa-facebook:hover{
+  background: blue;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
+footer .fa-linkedin:hover{
+  background: blue;
+  color: whitesmoke;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+  border-radius: 50%;
+}
+
 
 @media(max-width:500px) {
   .body h1{
